@@ -1,0 +1,15 @@
+[
+  
+    {
+      "title"    : "Start Swift",
+      "title-lower"    : "start swift",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "JavascriptNodeJS",
+      "tags"     : "",
+      "url"      : "/javascript/nodejs/2019/03/23/welcome-to-jekyll.html",
+      "date"     : "2019-03-23 13:12:00 +0900",
+      "content"     : "Swift는const Razorpay = require(&#39;razorpay&#39;);let rzp = Razorpay({	key_id: &#39;KEY_ID&#39;,	secret: &#39;name&#39;});// capture requestrzp.capture(payment_id, cost)	.then(function (data) {		r..."
+    } 
+  
+]
