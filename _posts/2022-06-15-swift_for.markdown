@@ -1,0 +1,32 @@
+---
+layout: post
+title: "for statement of Swift"
+date: 2022-06-15
+categories: Swift
+---
+swift에서는 배열을 선언할 때 
+var 배열이름 : [데이터타입] = [데이터들~]
+의 꼴로 선언한다.
+
+그리고 for문은 python과 유사하고 where로 조건을 추가할 수 있다.
+그리고 데이터 포맷팅을 할 때에는 파이썬의 f스트링과 비슷하고
+\() 로 포멧팅을 하는 것 처럼 보인다.
+
+
+```swift
+import UIKit
+
+// 콜렉션 : 데이터를 모아둔 것
+// 배열, 셋, 딕셔너리, 튜플 => 시퀀스
+
+var myArray : [Int] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for item in myArray{
+    print("itme: \(item)")
+}
+
+// for문과 if문 결합
+for item in myArray where item > 5{
+    print("itme: \(item)")
+}
+```
