@@ -1,4 +1,4 @@
-title: Your awesome title
+title: SeungWoo blog
 author: GitHub User
 email: qkrcks8912@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -26,12 +26,12 @@ plainwhite:
     - post
   # generate social links in footer
   social_links:
-    twitter: cieabora
+    #twitter: cieabora
     github:  cieabora
     #linkedIn: in/samarsault
     #dribbble: jekyll
     #flickr:   jekyll
-    #instagram: jekyll
+    instagram: formerly._.cold
     #pinterest: jekyll
     #youtube: jekyll
     #facebook: jekyll
