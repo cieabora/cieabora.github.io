@@ -8,7 +8,7 @@ swift에서의 for문은 파이썬과 유사하다.
 range(0, 6) 대신에 0..<6 을 쓰거나 0...5를 쓴다.  
   
 그리고 where로 조건을 추가할 수 있는데
-'''swift
+```swift
 for i in 0..<5 where i % 2 == 0{
     print("even number: \(i)")
 }
