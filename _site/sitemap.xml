@@ -6,11 +6,21 @@
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <url>
             <loc>http://localhost:4000</loc>
-	    <lastmod>2022-06-15T09:51:12+09:00</lastmod>
+	    <lastmod>2022-06-16T05:09:46+09:00</lastmod>
             <priority>1.00</priority>
         </url><url>
-                <loc>http://localhost:4000/javascript/nodejs/2019/03/23/welcome-to-jekyll.html</loc>
-                <lastmod>2019-03-23T13:12:00+09:00</lastmod>
+                <loc>http://localhost:4000/swift/2022/06/16/enum.html</loc>
+                <lastmod>2022-06-16T04:50:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/swift/2022/06/15/swift_for.html</loc>
+                <lastmod>2022-06-15T00:00:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/swift/2022/06/15/start_swift.html</loc>
+                <lastmod>2022-06-15T00:00:00+09:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url></urlset>

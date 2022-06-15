@@ -1,15 +1,39 @@
 [
   
     {
-      "title"    : "Start Swift",
-      "title-lower"    : "start swift",
+      "title"    : "[SWIFT]enum statement",
+      "title-lower"    : "[swift]enum statement",
       "sub-titile" : "",
       "sub-titile-lower" : "",
-      "categories" : "JavascriptNodeJS",
+      "categories" : "Swift",
       "tags"     : "",
-      "url"      : "/javascript/nodejs/2019/03/23/welcome-to-jekyll.html",
-      "date"     : "2019-03-23 13:12:00 +0900",
-      "content"     : "Swift는const Razorpay = require(&#39;razorpay&#39;);let rzp = Razorpay({	key_id: &#39;KEY_ID&#39;,	secret: &#39;name&#39;});// capture requestrzp.capture(payment_id, cost)	.then(function (data) {		r..."
+      "url"      : "/swift/2022/06/16/enum.html",
+      "date"     : "2022-06-16 04:50:00 +0900",
+      "content"     : "Swift에는 enum이라는 데이터 타입이 있는데 클래스와 유사한 것 같다.enum School{//    case elementary//    case middle//    case high    case elementary, middle, high}위와 같은 꼴로 선언한다. 그리고 Swift에서는 상수를 선언할 때 let이라는 키워드를 사용하는데l..."
+    } ,
+  
+    {
+      "title"    : "[SWIFT]for statement of Swift",
+      "title-lower"    : "[swift]for statement of swift",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/06/15/swift_for.html",
+      "date"     : "2022-06-15 00:00:00 +0900",
+      "content"     : "swift에서는 배열을 선언할 때var 배열이름 : [데이터타입] = [데이터들~]  의 꼴로 선언한다.그리고 for문은 python과 유사하고 where로 조건을 추가할 수 있다.그리고 데이터 포맷팅을 할 때에는 파이썬의 f스트링과 비슷하고() 로 포멧팅을 하는 것 처럼 보인다.import UIKit// 콜렉션 : 데이터를 모아둔 것// 배열, 셋,..."
+    } ,
+  
+    {
+      "title"    : "[SWIFT]Start Swift",
+      "title-lower"    : "[swift]start swift",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/06/15/start_swift.html",
+      "date"     : "2022-06-15 00:00:00 +0900",
+      "content"     : "swift는 변수를 선언할 때var 변수이름 : 데이터타입 = 값  과 같은 형식으로 선언한다.출력은 파이썬과 유사하게 하고, 문자열을 감쌀 때에는 무조건 쌍 따옴표로 감싸야 한다.if문의 형식은 C언어와 유사하고 한 줄 if문도 가능하다.import UIKit// 다크모드 여부var isDarkMode : Bool = trueif (isDarkMod..."
     } 
   
 ]

@@ -1,0 +1,71 @@
+---
+layout: post
+title: "[SWIFT]enum statement"
+date: 2022-06-16 04:50
+categories: Swift
+---
+Swift에는 enum이라는 데이터 타입이 있는데 클래스와 유사한 것 같다.  
+```swift
+enum School{
+//    case elementary
+//    case middle
+//    case high
+    case elementary, middle, high
+}
+```
+위와 같은 꼴로 선언한다. 그리고 Swift에서는 상수를 선언할 때 let이라는 키워드를 사용하는데
+```swift
+let yourSchool = School.high
+```
+위와 같은 형식이다. 이러면 yourSchool에는 high라는 값이 들어간다.  
+  
+그리고 각각의 변수에 대해 값을 추가할 수가 있는데 그런 경우에는
+```swift
+enum Grade: Int{
+    case first = 1
+    case second = 2
+}
+```
+위와 같은 식으로 선언한다. 여기서도 마찬가지로
+```swift
+let yourGrade = Grade.second
+```
+와 같이 객체를 만들 수 있는데 여기서 yourGrade를 출력하면 second가 출력된다. 안의 값을 출력하고자 한다면
+```swift
+let yourGrade = Grade.second.rawValue
+```
+와 같이 객체를 만들어야 한다.  
+  
+enum의 각각의 멤버 변수에 대해서 데이터 타입을 정의할 수 있는데
+```swift
+enum SchoolDetail{
+    case elementary(name: String)
+    case middle(name: String)
+    case high(name: String)
+}
+```
+위와 같이 선언한다. 여기서 변수를 만들게 되면
+```swift
+let yourMiddleSchoolName = SchoolDetail.middle(name: "SeungWoo")
+```
+위와 같이 선언하고 이를 출력하면 내가 원하는 포멧으로 출력이 되지 않고 middle(name: "SeungWoo")의 꼴로 출력된다.  
+여기서 name을 출력하고 싶다면 멤버 함수를 사용해야 하는데 이 멤버 함수는
+```swift
+enum SchoolDetail{
+    case elementary(name: String)
+    case middle(name: String)
+    case high(name: String)
+    
+    func getName() -> String{
+        switch self{
+        case .elementary(let name):
+            return name
+        case let .middle(name):
+            return name
+        case .high(let name):
+            return name
+        }
+    }
+}
+```
+위와 같이 선언할 수 있다.
