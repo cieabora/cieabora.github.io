@@ -1,0 +1,40 @@
+---
+layout: post
+title: "[SWIFT]for statement"
+date: 2022-06-16 05:19
+categories: Swift
+---
+swift에서의 for문은 파이썬과 유사하다.  
+range(0, 6) 대신에 0..<6 을 쓰거나 0...5를 쓴다.  
+  
+그리고 where로 조건을 추가할 수 있는데
+'''swift
+for i in 0..<5 where i % 2 == 0{
+    print("even number: \(i)")
+}
+```
+위와 같이 조건을 추가하면 짝수만 출력이 된다.  
+  
+swift에서 동적 할당된 배열을 만들 때에는
+```swift
+var randomInts: [Int] = []
+```
+또는
+```swift
+var randomInts: [Int] = [Int]()
+```
+와 같이 만들 수 있다.  
+  
+for문에서 변수를 안 쓰고 원하는 만큼만 돌리고 싶으면 변수 대신에 _를 쓰면 된다.  
+  
+그리고 아래는 0부터 100 사이에 25개의 랜덤한 수를 배열에 넣는 코드이다.
+```swift
+var randomInts: [Int] = [Int]()
+
+for _ in 0..<25{
+    let randomNumber = Int.random(in: 0...100)
+    randomInts.append(randomNumber)
+}
+
+print(randomInts)
+```

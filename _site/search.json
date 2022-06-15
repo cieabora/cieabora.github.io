@@ -1,6 +1,18 @@
 [
   
     {
+      "title"    : "[SWIFT]for statement",
+      "title-lower"    : "[swift]for statement",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/06/16/for_state.html",
+      "date"     : "2022-06-16 05:19:00 +0900",
+      "content"     : "swift에서의 for문은 파이썬과 유사하다.range(0, 6) 대신에 0..&amp;lt;6 을 쓰거나 0…5를 쓴다.그리고 where로 조건을 추가할 수 있는데‘&#39;’swiftfor i in 0..&amp;lt;5 where i % 2 == 0{    print(“even number: (i)”)}위와 같이 조건을 추가하면 짝수만 출력이 된..."
+    } ,
+  
+    {
       "title"    : "[SWIFT]enum statement",
       "title-lower"    : "[swift]enum statement",
       "sub-titile" : "",
@@ -13,8 +25,8 @@
     } ,
   
     {
-      "title"    : "[SWIFT]for statement of Swift",
-      "title-lower"    : "[swift]for statement of swift",
+      "title"    : "[SWIFT]for each statement of Swift",
+      "title-lower"    : "[swift]for each statement of swift",
       "sub-titile" : "",
       "sub-titile-lower" : "",
       "categories" : "Swift",
