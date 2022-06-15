@@ -1,6 +1,18 @@
 [
   
     {
+      "title"    : "[SWIFT]Optional Value and Unwrapping",
+      "title-lower"    : "[swift]optional value and unwrapping",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/06/16/unwrap.html",
+      "date"     : "2022-06-16 05:47:00 +0900",
+      "content"     : "옵셔널 값이란 값이 있는지 없는지 모르는 값이다. 선언은 아래와 같이 한다.var someVariable: Int? = nil변수 선언과 유사한데 데이터 타입 뒤에 물음표의 유무 차이이다. 여기서 이 변수에 값을 넣어줄 수 있는데if someVariable == nil{    someVariable = 90}print(someVariable)이러면 일..."
+    } ,
+  
+    {
       "title"    : "[SWIFT]for statement",
       "title-lower"    : "[swift]for statement",
       "sub-titile" : "",
