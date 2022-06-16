@@ -1,6 +1,18 @@
 [
   
     {
+      "title"    : "[JAVA]java start",
+      "title-lower"    : "[java]java start",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "java",
+      "tags"     : "",
+      "url"      : "/java/2022/06/16/java_start.html",
+      "date"     : "2022-06-16 09:47:00 +0900",
+      "content"     : "자바의 기본 포맷은 아래와 같다.public class Sample{    public static void main(String args[]){        System.out.println(&quot;hello java!&quot;);    }}여기서 주의할 점은 자바의 파일 이름과 매인 클래스의 이름이 같아야 한다.자바에서의 배열은 C언어와 유사..."
+    } ,
+  
+    {
       "title"    : "[SWIFT]Optional Value and Unwrapping",
       "title-lower"    : "[swift]optional value and unwrapping",
       "sub-titile" : "",
