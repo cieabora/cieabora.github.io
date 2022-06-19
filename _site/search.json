@@ -1,6 +1,18 @@
 [
   
     {
+      "title"    : "[SWIFT]Struct and Class",
+      "title-lower"    : "[swift]struct and class",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/06/20/swift_class.html",
+      "date"     : "2022-06-20 04:02:00 +0900",
+      "content"     : "swift에도 struct와 구조체라는 개념이 있다.구조체를 선언할 때에는 아래와 같이 선언할 수 있다.// 유튜버 (데이터) 모델 - struct / 구조체struct YoutuberStruct{    var name : String    var subscriberCount : Int}이 구조체의 객체를 만들 때에는var devPark = Youtu..."
+    } ,
+  
+    {
       "title"    : "[JAVA]java start",
       "title-lower"    : "[java]java start",
       "sub-titile" : "",
