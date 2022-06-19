@@ -4,7 +4,7 @@ title: "[SWIFT]Struct and Class"
 date: 2022-06-20 04:02
 categories: Swift
 ---
-swift에도 struct와 구조체라는 개념이 있다.  
+swift에도 struct와 class라는 개념이 있다.  
 구조체를 선언할 때에는 아래와 같이 선언할 수 있다.
 ```swift
 // 유튜버 (데이터) 모델 - struct / 구조체
@@ -41,7 +41,7 @@ before devParkClone.name :  박승우
 after devParkClone.name :  호롤롤로
 after devPark.name :  박승우
 ```
-devParkClone의 이름을 바꿨는데 devPark의 이름이 바뀌지 않은 것을 보면 deep copy임을 알 수 있다.  
+devParkClone의 name을 바꿨는데 devPark의 name이 바뀌지 않은 것을 보면 deep copy임을 알 수 있다.  
   
 이제 클래스를 보겠다.
 생성자를 포함한 클래스의 기본 선언 형식은 아래와 같다.
