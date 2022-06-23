@@ -1,0 +1,86 @@
+---
+layout: post
+title: "[SWIFT]Closure"
+date: 2022-06-23 13:40
+categories: Swift
+---
+Swift에서 함수는 이름이 있는 클로저이다. 즉, 클로저는 함수의 상위 개념이다. 파이썬에서 lambda와 유사한 것 같다.  
+String을 반환하는 기본적은 클로저의 정의는 아래와 같다.
+```swift
+let myRealName : (String) -> String = {(name: String) -> String in
+    return "개발하는 \(name)"
+}
+
+print(myRealName("승우"))
+```
+Result
+```console
+개발하는 승우
+```
+<br>
+여기서 인자로 들어오는 값을 $와 숫자를 이용해 문장을 더욱 간결하게 할 수 있다.
+```swift
+let myRealName : (String) -> String = {"개발하는 " + $0}
+```
+<br>
+그리고 메소드의 파라미터로 클로저를 불러올 수도 있다.
+```swift
+func sayHiWithName(completion: (String) -> Void){
+    print("sayHiWithName() called")
+    completion("오늘도 빡코딩 하고 계신가요?")
+}
+
+sayHiWithName(
+    print("승우가 말했다. ", $0)
+)
+```
+  
+아래는 파라미터로 불러오는 클로저의 여러 형식들이다.
+```swift
+sayHiWithName(completion: {(comment: String) in
+    print("2초 뒤에 그가 말했다 comment: ", comment)
+})
+
+sayHiWithName(completion: { comment in
+    print("2초 뒤에 그가 말했다 comment: ", comment)
+})
+
+sayHiWithName{ comment in
+    print("2초 뒤에 그가 말했다 comment: ", comment)
+}
+
+sayHiWithName{
+    print("2초 뒤에 그가 말했다 comment: ", $0)
+}
+```
+<br>
+그리고 마지막으로 클로저도 옵셔널 값이 가능하다.
+```swift
+func sayHiOptional(completion: (() -> Void)? = nil){
+    print("sayHiOptical() called")
+    completion?()
+}
+
+sayHiOptional()
+print("---------")
+sayHiOptional(){
+    print("Hi")
+}
+```
+Result
+```console
+sayHiOptical() called
+---------
+sayHiOptical() called
+Hi
+```
+<br>
+클로저는 map 함수를 쓸 때 유용하게 쓰인다.
+```swift
+var nums : [Int] = [0, 1, 2, 3, 4]
+print(nums.map{$0 * 2})
+```
+Result
+```console
+[0, 2, 4, 6, 8]
+```

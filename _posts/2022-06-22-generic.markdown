@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[SWIFT]Generic"
-date: 2022-06-21 16:04
+date: 2022-06-22 14:00
 categories: Swift
 ---
 Swift에는 Generic이라는 개념이 존재한다. 제네릭이란 C++에서 함수의 템플릿과 거의 동일한데 데이터의 타입을 미리 정하지 않고 유동적으로 바꾸는 것이다.  

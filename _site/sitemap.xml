@@ -6,9 +6,29 @@
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <url>
             <loc>http://localhost:4000</loc>
-	    <lastmod>2022-06-20T14:44:45+09:00</lastmod>
+	    <lastmod>2022-06-23T13:45:02+09:00</lastmod>
             <priority>1.00</priority>
         </url><url>
+                <loc>http://localhost:4000/swift/2022/06/23/closure.html</loc>
+                <lastmod>2022-06-23T13:40:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/swift/2022/06/22/generic.html</loc>
+                <lastmod>2022-06-22T14:00:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/swift/2022/06/21/method_parameter.html</loc>
+                <lastmod>2022-06-21T16:04:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/swift/2022/06/21/property_observer.html</loc>
+                <lastmod>2022-06-21T15:48:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
                 <loc>http://localhost:4000/swift/2022/06/20/swift_class.html</loc>
                 <lastmod>2022-06-20T04:02:00+09:00</lastmod>
                 <changefreq>weekly</changefreq>

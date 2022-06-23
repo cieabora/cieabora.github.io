@@ -1,6 +1,54 @@
 [
   
     {
+      "title"    : "[SWIFT]Closure",
+      "title-lower"    : "[swift]closure",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/06/23/closure.html",
+      "date"     : "2022-06-23 13:40:00 +0900",
+      "content"     : "Swift에서 함수는 이름이 있는 클로저이다. 즉, 클로저는 함수의 상위 개념이다. 파이썬에서 lambda와 유사한 것 같다.String을 반환하는 기본적은 클로저의 정의는 아래와 같다.let myRealName : (String) -&amp;gt; String = {(name: String) -&amp;gt; String in    return &q..."
+    } ,
+  
+    {
+      "title"    : "[SWIFT]Generic",
+      "title-lower"    : "[swift]generic",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/06/22/generic.html",
+      "date"     : "2022-06-22 14:00:00 +0900",
+      "content"     : "Swift에는 Generic이라는 개념이 존재한다. 제네릭이란 C++에서 함수의 템플릿과 거의 동일한데 데이터의 타입을 미리 정하지 않고 유동적으로 바꾸는 것이다.struct myArray&amp;lt;T&amp;gt;{    var elements : [T] = [T]()}위는 기본적인 포맷이다. 밑은 예제이다.struct myArray&amp;lt..."
+    } ,
+  
+    {
+      "title"    : "[SWIFT]Method Parameter Name",
+      "title-lower"    : "[swift]method parameter name",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/06/21/method_parameter.html",
+      "date"     : "2022-06-21 16:04:00 +0900",
+      "content"     : "메소드의 매개변수의 이름은 기본적으로 메소드를 정의할 때와 메소드를 호출할 때 동일하게 쓰인다.// 메소드 정의func myFunction(name: String) -&amp;gt; String{    return &quot;안녕하세요?! \(name) 입니다.&quot;}// 메소드 호출myFunction(name: &quot;씅우&quot;)그런데..."
+    } ,
+  
+    {
+      "title"    : "[SWIFT]Property Observer",
+      "title-lower"    : "[swift]property observer",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/06/21/property_observer.html",
+      "date"     : "2022-06-21 15:48:00 +0900",
+      "content"     : "프로퍼티 옵저버란 값이 변할 때 함수를 실행하는 기능이다.var myAge = 0{    willSet{        print(&quot;값이 설정될 예정이다. / myAge: \(myAge)&quot;)    }    didSet{        print(&quot;값이 설정되었다. / myAge: \(myAge)&quot;)    }}willSe..."
+    } ,
+  
+    {
       "title"    : "[SWIFT]Struct and Class",
       "title-lower"    : "[swift]struct and class",
       "sub-titile" : "",
