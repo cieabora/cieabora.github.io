@@ -1,6 +1,42 @@
 [
   
     {
+      "title"    : "[SWIFT]Parameter Inout",
+      "title-lower"    : "[swift]parameter inout",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/06/23/parameter_modify.html",
+      "date"     : "2022-06-23 14:29:00 +0900",
+      "content"     : "메소드 안에서 파라미터를 변경하려고 하면 에러가 발생한다.func error_func(_ name: String){    name = &quot;개발하는 &quot; + name    print(&quot;안녕?! 난 \(name) 라고 해&quot;)}error message:expression failed to parse:error: ex1.pla..."
+    } ,
+  
+    {
+      "title"    : "[SWIFT]Final Class",
+      "title-lower"    : "[swift]final class",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/06/23/final_class.html",
+      "date"     : "2022-06-23 14:08:00 +0900",
+      "content"     : "swift에는 final class라고 상속이 되지 않는 클래스가 있다.import UIKitfinal class Friend{    var name: String        init(name: String){        self.name = name    }}class BestFriend: Friend{        override init(na..."
+    } ,
+  
+    {
+      "title"    : "[SWIFT]Dictionary",
+      "title-lower"    : "[swift]dictionary",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/06/23/dict.html",
+      "date"     : "2022-06-23 14:08:00 +0900",
+      "content"     : "Swift에서의 딕셔너리는 파이썬과 비슷하다. 그래서 다른 점만 간단하게 포스팅 하겠다.1. 처음 캐스팅 된 값으로 계속 해야한다.  2. {}가 아니라 []이다.  3. 딕셔너리에 없는 값을 출력하려고 하면 에러가 나지 않고 nil이 나온다.  4. 값을 업데이트 할 때에는 updateValue 멤버 함수를 써야한다.  5. 빈 딕셔너리를 만드는 방..."
+    } ,
+  
+    {
       "title"    : "[SWIFT]Closure",
       "title-lower"    : "[swift]closure",
       "sub-titile" : "",

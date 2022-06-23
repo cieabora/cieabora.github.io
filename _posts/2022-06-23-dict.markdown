@@ -1,0 +1,33 @@
+---
+layout: post
+title: "[SWIFT]Dictionary"
+date: 2022-06-23 14:08
+categories: Swift
+---
+Swift에서의 딕셔너리는 파이썬과 비슷하다. 그래서 다른 점만 간단하게 포스팅 하겠다.
+<li>
+1. 처음 캐스팅 된 값으로 계속 해야한다.<br>  
+2. {}가 아니라 []이다.  <br>
+3. 딕셔너리에 없는 값을 출력하려고 하면 에러가 나지 않고 nil이 나온다. <br> 
+4. 값을 업데이트 할 때에는 updateValue 멤버 함수를 써야한다.<br>  
+5. 빈 딕셔너리를 만드는 방법은 여러가지다.<br>
+</li>
+<br>
+4번 코드
+```swift
+var dict = ["key" : "value"]
+
+dict.updateValue("만반잘부", forKey: "안녕")
+```
+위에서 볼 수 있듯이 키가 뒤로 오고 앞이 값이다.
+<br><br>
+5번 코드
+```swift
+// empty dictionary
+let emptyDict : [String : Int] = [:]
+// or
+let emptyD : [String : Int] = [String : Int]()
+// or
+let emptyd : [String : Int] = Dictionary<String, Int>()
+```
+
