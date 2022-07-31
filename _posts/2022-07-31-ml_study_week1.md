@@ -5,7 +5,9 @@ date: 2022-07-31 23:40
 categories: ML
 ---
 <h2>ndarray</h2>
-numpy는 선형대수를 구현하기 위해 만든 파이썬 라이브러리이다. array 함수로 ndarray 객체를 생성할 수 있다.<br>
+numpy는 선형대수를 구현하기 위해 만든 파이썬 라이브러리이다. array 함수로 ndarray 객체를 생성할 수 있다.
+
+
 ```python
 import numpy as np
 arr1 = np.array([1, 2, 3, 4], dtype = 'int32')
