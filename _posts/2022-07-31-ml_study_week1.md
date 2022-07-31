@@ -38,18 +38,24 @@ column_vector = arr1.reshape(-1, 1)
 
 <h2> fancy index, boolean index</h2>
 fancy index는 정상적인 인덱스와 비슷한데 인덱싱을 하는 대괄호 안에 리스트를 넣는다. 그리고 리스트 안에는 원하는 추출을 원하는 원소들의 인덱스를 넣어서 여러 값을 뽑는다.
+
+
 ```python
 arr1 = np.arange(start=1, stop=13)
 print(arr1[[10, 4, 2]])
 ```
 위와 같이 코드를 입력하면 array([11, 5, 3])이 출력된다. <br>
 boolean index는 정말 유용하게 사용했던 인덱싱 기법인데 넘파이 객체에 boolean 연산을 하게 되면 해당 연산을 만족하는 인덱스에는 True, 그렇지 않은 인덱스에는 False가 들어가 있는 새로운 넘파이 객체가 생성된다. 그리고 이 넘파이 객체를 이용하여 인덱싱을 하게 되면 True에 해당하는 인덱스에 있는 원소만 추출, 수정이 가능하다. 
+
+
 ```python
 bool_arr = arr1 % 2 == 0
 print(bool_arr)
 print(arr1[bool_arr])
 ```
 위와 같은 코드를 실행하면 
+
+
 ```console
 array([False,  True, False,  True, False,  True, False,  True, False,
         True, False,  True])
@@ -62,6 +68,8 @@ axis의 기준은 간단하다. n차원 행렬을 파이썬의 리스트로 풀�
 4 5 6 <br>
 7 8 9 <br>
 위와 같은 3 * 3 행렬로 봤을 때 파이썬의 리스트로 풀어서 쓰면 [[1, 2, 3], [4, 5, 6], [7, 8, 9]]가 된다. 여기서 이 리스트의 이름을 arr라고 했을 때 arr[0]은 [1, 2, 3]이 된다. 그리고 arr[0][0]은 1이다. 여기서 [1, 2, 3]이 axis가 1인 축이다. 즉, 다차원 리스트에 대해서 인덱스의 순서가 axis의 순서가 되는 것이다. 아래 예제를 보면 이해가 쉽다.
+
+
 ```python
 arr1 = np.arange(start=1, stop=28).reshape(3, 3, 3)
 print(arr1)
@@ -70,6 +78,8 @@ print(arr1.sum(axis=1))
 print(arr1.sum(axis=2))
 ```
 result
+
+
 ```console
 array([[[ 1,  2,  3],
         [ 4,  5,  6],
