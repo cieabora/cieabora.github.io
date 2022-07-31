@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[MACHINE LEARNING]week1"
-date: 2022-06-23 14:29
+title: "[ML]week1"
+date: 2022-07-31 23:40
 categories: ML
 ---
 <h2>ndarray</h2>
