@@ -1,6 +1,18 @@
 [
   
     {
+      "title"    : "[MACHINE LEARNING]week1",
+      "title-lower"    : "[machine learning]week1",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "ML",
+      "tags"     : "",
+      "url"      : "/ml/2022/06/23/ml_study_week1.html",
+      "date"     : "2022-06-23 14:29:00 +0900",
+      "content"     : "ndarraynumpy는 선형대수를 구현하기 위해 만든 파이썬 라이브러리이다. array 함수로 ndarray 객체를 생성할 수 있다.import numpy as nparr1 = np.array([1, 2, 3, 4], dtype = &#39;int32&#39;)array 를 조작하는 함수들이 있는데 아래와 같다.arr2 = np.zeros((3, 2..."
+    } ,
+  
+    {
       "title"    : "[SWIFT]Parameter Inout",
       "title-lower"    : "[swift]parameter inout",
       "sub-titile" : "",
