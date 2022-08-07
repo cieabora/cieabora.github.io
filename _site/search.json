@@ -1,6 +1,18 @@
 [
   
     {
+      "title"    : "[ML]week2-scikit learn",
+      "title-lower"    : "[ml]week2-scikit learn",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "ML",
+      "tags"     : "",
+      "url"      : "/ml/2022/08/07/ml_study_week2.html",
+      "date"     : "2022-08-07 22:37:00 +0900",
+      "content"     : "아이리스 품종 예측하기아래와 같은 코드로 아이리스 예측을 위한 데이터 셋을 로딩할 수 있다.from sklearn.datasets import load_irisimport pandas as pd# 아이리스 데이터 셋 로딩iris = load_iris()아이리스를 예측하기 위한 피쳐 값, 피쳐 이름, 레이블 값, 레이블 이름 등은 아래와 같이 정리돼 있..."
+    } ,
+  
+    {
       "title"    : "[ML]week1",
       "title-lower"    : "[ml]week1",
       "sub-titile" : "",
