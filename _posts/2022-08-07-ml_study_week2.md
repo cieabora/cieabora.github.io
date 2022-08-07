@@ -138,7 +138,7 @@ result
 2    50
 Name: label, dtype: int64
 ```
-<br>
+code
 
 
 ```python
