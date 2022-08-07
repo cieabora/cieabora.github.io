@@ -6,7 +6,7 @@
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <url>
             <loc>http://localhost:4000</loc>
-	    <lastmod>2022-08-07T23:39:40+09:00</lastmod>
+	    <lastmod>2022-08-07T23:41:22+09:00</lastmod>
             <priority>1.00</priority>
         </url><url>
                 <loc>http://localhost:4000/ml/2022/08/07/ml_study_week2.html</loc>

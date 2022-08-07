@@ -139,6 +139,8 @@ result
 Name: label, dtype: int64
 ```
 <br>
+
+
 ```python
 kfold = KFold(n_splits=3)
 # kfold.split(X)는 폴드 세트를 3번 반복할 때마다 달라지는 학습/테스트 용 데이터 로우 인덱스 번호 반환. 
