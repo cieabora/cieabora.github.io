@@ -1,6 +1,18 @@
 [
   
     {
+      "title"    : "[ML]week3-Prediction Evaluation",
+      "title-lower"    : "[ml]week3-prediction evaluation",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "ML",
+      "tags"     : "",
+      "url"      : "/ml/2022/08/13/ml_study_week3.html",
+      "date"     : "2022-08-13 06:39:00 +0900",
+      "content"     : "정확도(Accuracy)와 오차 행렬(confusion matrix)머신 러닝에서 학습을 기반으로 한 예측의 결과는 아래의 표와 같이 4가지로 분류할 수 있다.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbs..."
+    } ,
+  
+    {
       "title"    : "[ML]week2-scikit learn",
       "title-lower"    : "[ml]week2-scikit learn",
       "sub-titile" : "",
