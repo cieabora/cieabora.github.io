@@ -1,6 +1,54 @@
 [
   
     {
+      "title"    : "[SWIFT]Protocol Associated Type",
+      "title-lower"    : "[swift]protocol associated type",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/08/15/protocol-Associated-Type.html",
+      "date"     : "2022-08-15 02:04:00 +0900",
+      "content"     : "프로토콜에서는 associated type이라는 타입이 존재하는데 제네릭과 유사하다. 들어오는 타입을 오토 캐스팅 해주는 키워드인거 같다.protocol PetHaving{    associatedtype T    var pets: [T] { get set }    mutating func gotNewPet(_ newPet: T)}extension P..."
+    } ,
+  
+    {
+      "title"    : "[SWIFT]Protocol Extension",
+      "title-lower"    : "[swift]protocol extension",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/08/15/protocol-Extension.html",
+      "date"     : "2022-08-15 01:50:00 +0900",
+      "content"     : "프로토콜에서는 정의만 가능하다. 그리고 구현은 할 수 없는데 extension이라는 키워드를 사용하면 구현이 가능하다. 아래의 코드를 보자protocol Naming{    var lastname : String{ get set }    var firstname: String{ get set }    func getName() -&amp;gt; Str..."
+    } ,
+  
+    {
+      "title"    : "[SWIFT]Protocol Inheritance",
+      "title-lower"    : "[swift]protocol inheritance",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/08/15/protocol-inheritance.html",
+      "date"     : "2022-08-15 01:41:00 +0900",
+      "content"     : "프로토콜도 상속이 가능한데 별 내용은 없다. 아래와 같이 구현하면 된다.protocol Naming{    var name : String{ get set }    func getName() -&amp;gt; String}protocol Aging{    var age: Int{ get set }    }protocol UserNotifiable : ..."
+    } ,
+  
+    {
+      "title"    : "[SWIFT]Protocol",
+      "title-lower"    : "[swift]protocol",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/08/15/protocol.html",
+      "date"     : "2022-08-15 01:37:00 +0900",
+      "content"     : "어떠한 함수나 클래스, 스트럭트를 만들 때 특정한 이름을 가진 멤버 함수나 멤버 변수를 만들지 않으면 에러를 발생하게 하는 것이 프로토콜이다. 예를 들면, 앱을 만들 때 앱에 어떠한 기능을 빠뜨리지 않기 위해서 쓰일 것 같다. 형식은 아래와 같다.protocol Naming{    var name : String{ get set }    func ge..."
+    } ,
+  
+    {
       "title"    : "[ML]week3-Prediction Evaluation",
       "title-lower"    : "[ml]week3-prediction evaluation",
       "sub-titile" : "",
