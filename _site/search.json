@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "[ML]week4-Ensemble Learning",
+      "title-lower"    : "[ml]week4-ensemble learning",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "ML",
+      "tags"     : "",
+      "url"      : "/ml/2022/09/10/ml_study_week4_Ensemble.html",
+      "date"     : "2022-09-10 12:23:00 +0900",
+      "content"     : "앙상블 학습앙상블 학습이란?앙상블 학습이란 여러가지 분류기(classifier)을 두고 각각의 분류기에서 학습과 테스트를 시행해 결과를 도출하는 방식이다. 앙상블의 유형에는 보팅(Voting), 배깅(Bagging), 부스팅(Boosting) 등이 있다.앙상블 학습의 주요 알고리즘배깅 - 랜덤 포레스트(Random Forest)부스팅 - 에이다 부스팅..."
+    } ,
+  
+    {
+      "title"    : "[ML]week4-Decision Tree",
+      "title-lower"    : "[ml]week4-decision tree",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "ML",
+      "tags"     : "",
+      "url"      : "/ml/2022/09/10/ml_study_week4_decision_tree.html",
+      "date"     : "2022-09-10 08:29:00 +0900",
+      "content"     : "Decision TreeDecision Tree의 주요 하이퍼 파라미터max_depth 트리의 최대 깊이를 규정디폴트는 None. None으로 설정하면 완벽하게 클래스 결정 값이 될 때까지 깊이를 계속 키우며 분할하거나 노드가 가지는 데이터 개수가 min_samples_split보다 작아질 때까지 계속 깊이를 증가시킴.깊이가 깊어지면 min_sampl..."
+    } ,
+  
+    {
       "title"    : "[SWIFT]Protocol Associated Type",
       "title-lower"    : "[swift]protocol associated type",
       "sub-titile" : "",

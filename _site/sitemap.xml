@@ -6,9 +6,19 @@
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <url>
             <loc>http://localhost:4000</loc>
-	    <lastmod>2022-08-15T02:05:24+09:00</lastmod>
+	    <lastmod>2022-09-10T13:31:19+09:00</lastmod>
             <priority>1.00</priority>
         </url><url>
+                <loc>http://localhost:4000/ml/2022/09/10/ml_study_week4_Ensemble.html</loc>
+                <lastmod>2022-09-10T12:23:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/ml/2022/09/10/ml_study_week4_decision_tree.html</loc>
+                <lastmod>2022-09-10T08:29:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
                 <loc>http://localhost:4000/swift/2022/08/15/protocol-Associated-Type.html</loc>
                 <lastmod>2022-08-15T02:04:00+09:00</lastmod>
                 <changefreq>weekly</changefreq>
