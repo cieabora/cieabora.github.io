@@ -1,6 +1,7 @@
 [
   
     {
+<<<<<<< HEAD
       "title"    : "[ML]week5-Logistic Regression",
       "title-lower"    : "[ml]week5-logistic regression",
       "sub-titile" : "",
@@ -61,6 +62,8 @@
     } ,
   
     {
+=======
+>>>>>>> 1c930d7344fd8c17a9dbe2336fd7fd74dc312254
       "title"    : "[ML]week4-Ensemble Learning",
       "title-lower"    : "[ml]week4-ensemble learning",
       "sub-titile" : "",

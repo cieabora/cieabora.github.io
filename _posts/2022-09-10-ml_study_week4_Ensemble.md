@@ -224,6 +224,7 @@ print('GBM 정확도: {0:.4f}'.format(gb_accuracy))
 print("GBM 수행 시간: {0:.1f} 초 ".format(time.time() - start_time))
 ```
 
+<<<<<<< HEAD
 <h2>XGBM과 Light GBM 코드</h2>
 XGBM code:
 
@@ -329,3 +330,5 @@ fig, ax = plt.subplots(figsize=(10, 12))
 plot_importance(lgbm_wrapper, ax=ax)
 plt.show()
 ```
+=======
+>>>>>>> 1c930d7344fd8c17a9dbe2336fd7fd74dc312254
