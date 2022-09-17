@@ -1,6 +1,138 @@
 [
   
     {
+      "title"    : "[ML]week5-Logistic Regression",
+      "title-lower"    : "[ml]week5-logistic regression",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "ML",
+      "tags"     : "",
+      "url"      : "/ml/2022/09/17/ml_study_week5_Logistic_Regression.html",
+      "date"     : "2022-09-17 23:49:00 +0900",
+      "content"     : ""
+    } ,
+  
+    {
+      "title"    : "[ML]week5-Regularized Linear Regression",
+      "title-lower"    : "[ml]week5-regularized linear regression",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "ML",
+      "tags"     : "",
+      "url"      : "/ml/2022/09/17/ml_study_week5_Regularized_Linear_Regression.html",
+      "date"     : "2022-09-17 23:09:00 +0900",
+      "content"     : "  규제 선형 회귀(Regularized Linear Regression)  규제 선형 회귀란?앞의 예제에서 Degree=15의 다항회귀는 지나치게 모든 데이터에 적합한 회귀식을 만들기 위해서 다항식이 복잡해지고 회귀 계수가 매우 크게 설정이 되면서 과대 적합이 되고 평가 데이터 세트에 대해서 형편 없는 예측 성능을 보였다. 따라서 회귀 모델은 적절히..."
+    } ,
+  
+    {
+      "title"    : "[ML]week5-Polynomial Regression",
+      "title-lower"    : "[ml]week5-polynomial regression",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "ML",
+      "tags"     : "",
+      "url"      : "/ml/2022/09/15/ml_study_week5_Polynomial_Regression.html",
+      "date"     : "2022-09-15 17:11:00 +0900",
+      "content"     : "  다항 회귀(Polynomial Regression  다항 회귀 개요다항 회귀는 회귀식이 독립변수의 단항식이 아닌 2차, 3차 방정식과 같은 다항식으로 표현되는 것.  선형 회귀와 비선형 회귀의 구분다항 회귀는 선형 회귀이다. 회귀에서 선형 회귀/비선형 회귀를 나누는 기준은 회귀 계수가 선형/비선형인지에 따른 것이지 독립변수의 선형/비선형 여부와는 ..."
+    } ,
+  
+    {
+      "title"    : "[ML]week5-Linear Regression",
+      "title-lower"    : "[ml]week5-linear regression",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "ML",
+      "tags"     : "",
+      "url"      : "/ml/2022/09/14/ml_study_week5_Linear_Regression.html",
+      "date"     : "2022-09-14 18:12:00 +0900",
+      "content"     : "  RSS오류 값의 제곱을 구해서 더하는 방식. 일반적으로 미분 등의 계산을 편리하게 하기 위해서 RSS 방식으로 오류 합을 구한다. 즉 에러의 제곱은 RSS.RSS는 회귀식의 독립변수 X, 종속변수 Y가 중심 변수가 아니라 w 변수(회귀 계수)가 중심 변수임을 인지하는 것이 매우 중요하다.(학습 데이터로 입력되는 독립변수와 종속변수는 RSS에서 모두..."
+    } ,
+  
+    {
+      "title"    : "[ML]week4-Bayesian Optimization",
+      "title-lower"    : "[ml]week4-bayesian optimization",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "ML",
+      "tags"     : "",
+      "url"      : "/ml/2022/09/10/ml_study_week4_Bayesian_Optimization.html",
+      "date"     : "2022-09-10 22:44:00 +0900",
+      "content"     : "베이지안 최적화 수행단계최초에는 랜덤하게 하이퍼 파라미터들을 샘플링하여 성능 결과를 관측관측된 값을 기반으로 대체 모델은 최적 함수를 예측 추정획득 함수에서 다음으로 관측할 하이퍼 파라미터를 추출해당 하이퍼 파라미터로 관측된 값을 기반으로 대체 모델은 다시 최적 함수 예측 추정베이지안 최적화 구현 요소입력 값 범위(Search Space)목적 함수의 ..."
+    } ,
+  
+    {
+      "title"    : "[ML]week4-Ensemble Learning",
+      "title-lower"    : "[ml]week4-ensemble learning",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "ML",
+      "tags"     : "",
+      "url"      : "/ml/2022/09/10/ml_study_week4_Ensemble.html",
+      "date"     : "2022-09-10 12:23:00 +0900",
+      "content"     : "앙상블 학습앙상블 학습이란?앙상블 학습이란 여러가지 분류기(classifier)을 두고 각각의 분류기에서 학습과 테스트를 시행해 결과를 도출하는 방식이다. 앙상블의 유형에는 보팅(Voting), 배깅(Bagging), 부스팅(Boosting) 등이 있다.앙상블 학습의 주요 알고리즘배깅 - 랜덤 포레스트(Random Forest)부스팅 - 에이다 부스팅..."
+    } ,
+  
+    {
+      "title"    : "[ML]week4-Decision Tree",
+      "title-lower"    : "[ml]week4-decision tree",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "ML",
+      "tags"     : "",
+      "url"      : "/ml/2022/09/10/ml_study_week4_decision_tree.html",
+      "date"     : "2022-09-10 08:29:00 +0900",
+      "content"     : "Decision TreeDecision Tree의 주요 하이퍼 파라미터max_depth 트리의 최대 깊이를 규정디폴트는 None. None으로 설정하면 완벽하게 클래스 결정 값이 될 때까지 깊이를 계속 키우며 분할하거나 노드가 가지는 데이터 개수가 min_samples_split보다 작아질 때까지 계속 깊이를 증가시킴.깊이가 깊어지면 min_sampl..."
+    } ,
+  
+    {
+      "title"    : "[SWIFT]Protocol Associated Type",
+      "title-lower"    : "[swift]protocol associated type",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/08/15/protocol-Associated-Type.html",
+      "date"     : "2022-08-15 02:04:00 +0900",
+      "content"     : "프로토콜에서는 associated type이라는 타입이 존재하는데 제네릭과 유사하다. 들어오는 타입을 오토 캐스팅 해주는 키워드인거 같다.protocol PetHaving{    associatedtype T    var pets: [T] { get set }    mutating func gotNewPet(_ newPet: T)}extension P..."
+    } ,
+  
+    {
+      "title"    : "[SWIFT]Protocol Extension",
+      "title-lower"    : "[swift]protocol extension",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/08/15/protocol-Extension.html",
+      "date"     : "2022-08-15 01:50:00 +0900",
+      "content"     : "프로토콜에서는 정의만 가능하다. 그리고 구현은 할 수 없는데 extension이라는 키워드를 사용하면 구현이 가능하다. 아래의 코드를 보자protocol Naming{    var lastname : String{ get set }    var firstname: String{ get set }    func getName() -&amp;gt; Str..."
+    } ,
+  
+    {
+      "title"    : "[SWIFT]Protocol Inheritance",
+      "title-lower"    : "[swift]protocol inheritance",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/08/15/protocol-inheritance.html",
+      "date"     : "2022-08-15 01:41:00 +0900",
+      "content"     : "프로토콜도 상속이 가능한데 별 내용은 없다. 아래와 같이 구현하면 된다.protocol Naming{    var name : String{ get set }    func getName() -&amp;gt; String}protocol Aging{    var age: Int{ get set }    }protocol UserNotifiable : ..."
+    } ,
+  
+    {
+      "title"    : "[SWIFT]Protocol",
+      "title-lower"    : "[swift]protocol",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/08/15/protocol.html",
+      "date"     : "2022-08-15 01:37:00 +0900",
+      "content"     : "어떠한 함수나 클래스, 스트럭트를 만들 때 특정한 이름을 가진 멤버 함수나 멤버 변수를 만들지 않으면 에러를 발생하게 하는 것이 프로토콜이다. 예를 들면, 앱을 만들 때 앱에 어떠한 기능을 빠뜨리지 않기 위해서 쓰일 것 같다. 형식은 아래와 같다.protocol Naming{    var name : String{ get set }    func ge..."
+    } ,
+  
+    {
       "title"    : "[ML]week3-Prediction Evaluation",
       "title-lower"    : "[ml]week3-prediction evaluation",
       "sub-titile" : "",

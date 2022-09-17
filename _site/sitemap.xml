@@ -6,9 +6,64 @@
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <url>
             <loc>http://localhost:4000</loc>
-	    <lastmod>2022-08-14T23:39:14+09:00</lastmod>
+	    <lastmod>2022-09-17T23:53:25+09:00</lastmod>
             <priority>1.00</priority>
         </url><url>
+                <loc>http://localhost:4000/ml/2022/09/17/ml_study_week5_Logistic_Regression.html</loc>
+                <lastmod>2022-09-17T23:49:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/ml/2022/09/17/ml_study_week5_Regularized_Linear_Regression.html</loc>
+                <lastmod>2022-09-17T23:09:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/ml/2022/09/15/ml_study_week5_Polynomial_Regression.html</loc>
+                <lastmod>2022-09-15T17:11:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/ml/2022/09/14/ml_study_week5_Linear_Regression.html</loc>
+                <lastmod>2022-09-14T18:12:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/ml/2022/09/10/ml_study_week4_Bayesian_Optimization.html</loc>
+                <lastmod>2022-09-10T22:44:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/ml/2022/09/10/ml_study_week4_Ensemble.html</loc>
+                <lastmod>2022-09-10T12:23:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/ml/2022/09/10/ml_study_week4_decision_tree.html</loc>
+                <lastmod>2022-09-10T08:29:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/swift/2022/08/15/protocol-Associated-Type.html</loc>
+                <lastmod>2022-08-15T02:04:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/swift/2022/08/15/protocol-Extension.html</loc>
+                <lastmod>2022-08-15T01:50:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/swift/2022/08/15/protocol-inheritance.html</loc>
+                <lastmod>2022-08-15T01:41:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/swift/2022/08/15/protocol.html</loc>
+                <lastmod>2022-08-15T01:37:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
                 <loc>http://localhost:4000/ml/2022/08/13/ml_study_week3.html</loc>
                 <lastmod>2022-08-13T06:39:00+09:00</lastmod>
                 <changefreq>weekly</changefreq>
