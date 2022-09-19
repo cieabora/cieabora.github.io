@@ -5,7 +5,7 @@ date: 2022-09-15 17:11
 categories: ML
 ---
 <h1>
-  다항 회귀(Polynomial Regression
+  다항 회귀(Polynomial Regression)
 </h1>
 <h2>
   다항 회귀 개요
