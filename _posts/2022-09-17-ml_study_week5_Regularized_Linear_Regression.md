@@ -182,3 +182,110 @@ alpha 0.5일 때 5 폴드 세트의 평균 RMSE: 5.467
 alpha 1일 때 5 폴드 세트의 평균 RMSE: 5.597 
 alpha 3일 때 5 폴드 세트의 평균 RMSE: 6.068 
 ```
+
+<h1>
+  선형 회귀 모델을 위한 데이터 변환
+</h1>
+<h2>
+  선형 회귀를 위한 데이터 변환 방법
+</h2>
+선형 회귀 모델은 일반적으로 피처와 타겟 값 간에 선형의 관계가 있다고 가정하고 이러한 최적의 선형 함수를 찾아내 결과 값을 예측한다. 선형 회귀 모델은 피처 값과 타겟 값의 분포가 정규 분포 형태를 선호한다.<br>
+타겟값 변환: 타겟 값은 정규 분포 선호. Skew가 되어 있을 경우 주로 로그 변환을 적용.<br>
+피처값 변환-스케일링: 피처들에 대한 균일한 스케일링/정규화 적용. StandardScaler를 이용하여 표준 정규 분포 형태 변환 또는 MinMaxScaler를 이용하여 최소값 0, 최대값 1로 변환<br>
+피처 값 변환-다항 특성 변환: 스케일링/정규화 수행한 데이터 세트에 다시 다항 특성(Polynomial Feature)을 적용하여 변환<br>
+피처 값 변환-로그 변환: 왜도(Skewness)가 심한 중요 피처들에 대해서 로그 변환을 적용. 일반적으로 많이 사용 됨.<br>
+<h2>
+  선형 회귀 모델을 위한 데이터 변환 코드
+</h2>
+code
+
+
+```python
+from sklearn.linear_model import Ridge
+from sklearn.model_selection import cross_val_score
+
+# boston 데이타셋 로드
+boston = load_boston()
+
+# boston 데이타셋 DataFrame 변환 
+bostonDF = pd.DataFrame(boston.data , columns = boston.feature_names)
+
+# boston dataset의 target array는 주택 가격임. 이를 PRICE 컬럼으로 DataFrame에 추가함. 
+bostonDF['PRICE'] = boston.target
+
+y_target = bostonDF['PRICE']
+X_data = bostonDF.drop(['PRICE'],axis=1,inplace=False)
+
+from sklearn.preprocessing import StandardScaler, MinMaxScaler, PolynomialFeatures
+
+# method는 표준 정규 분포 변환(Standard), 최대값/최소값 정규화(MinMax), 로그변환(Log) 결정
+# p_degree는 다향식 특성을 추가할 때 적용. p_degree는 2이상 부여하지 않음. 
+def get_scaled_data(method='None', p_degree=None, input_data=None):
+    if method == 'Standard':
+        scaled_data = StandardScaler().fit_transform(input_data)
+    elif method == 'MinMax':
+        scaled_data = MinMaxScaler().fit_transform(input_data)
+    elif method == 'Log':
+        scaled_data = np.log1p(input_data)
+    else:
+        scaled_data = input_data
+
+    if p_degree != None:
+        scaled_data = PolynomialFeatures(degree=p_degree, 
+                                         include_bias=False).fit_transform(scaled_data)
+    
+    return scaled_data
+    
+# Ridge의 alpha값을 다르게 적용하고 다양한 데이터 변환방법에 따른 RMSE 추출. 
+alphas = [0.1, 1, 10, 100]
+#변환 방법은 모두 6개, 원본 그대로, 표준정규분포, 표준정규분포+다항식 특성
+# 최대/최소 정규화, 최대/최소 정규화+다항식 특성, 로그변환 
+scale_methods=[(None, None), ('Standard', None), ('Standard', 2), 
+               ('MinMax', None), ('MinMax', 2), ('Log', None)]
+for scale_method in scale_methods:
+    X_data_scaled = get_scaled_data(method=scale_method[0], p_degree=scale_method[1], 
+                                    input_data=X_data)
+    print('\n## 변환 유형:{0}, Polynomial Degree:{1}'.format(scale_method[0], scale_method[1]))
+    get_linear_reg_eval('Ridge', params=alphas, X_data_n=X_data_scaled, 
+                        y_target_n=y_target, verbose=False, return_coeff=False)
+```
+result:
+
+
+```console
+## 변환 유형:None, Polynomial Degree:None
+alpha 0.1일 때 5 폴드 세트의 평균 RMSE: 5.788 
+alpha 1일 때 5 폴드 세트의 평균 RMSE: 5.653 
+alpha 10일 때 5 폴드 세트의 평균 RMSE: 5.518 
+alpha 100일 때 5 폴드 세트의 평균 RMSE: 5.330 
+
+## 변환 유형:Standard, Polynomial Degree:None
+alpha 0.1일 때 5 폴드 세트의 평균 RMSE: 5.826 
+alpha 1일 때 5 폴드 세트의 평균 RMSE: 5.803 
+alpha 10일 때 5 폴드 세트의 평균 RMSE: 5.637 
+alpha 100일 때 5 폴드 세트의 평균 RMSE: 5.421 
+
+## 변환 유형:Standard, Polynomial Degree:2
+alpha 0.1일 때 5 폴드 세트의 평균 RMSE: 8.827 
+alpha 1일 때 5 폴드 세트의 평균 RMSE: 6.871 
+alpha 10일 때 5 폴드 세트의 평균 RMSE: 5.485 
+alpha 100일 때 5 폴드 세트의 평균 RMSE: 4.634 
+
+## 변환 유형:MinMax, Polynomial Degree:None
+alpha 0.1일 때 5 폴드 세트의 평균 RMSE: 5.764 
+alpha 1일 때 5 폴드 세트의 평균 RMSE: 5.465 
+alpha 10일 때 5 폴드 세트의 평균 RMSE: 5.754 
+alpha 100일 때 5 폴드 세트의 평균 RMSE: 7.635 
+
+## 변환 유형:MinMax, Polynomial Degree:2
+alpha 0.1일 때 5 폴드 세트의 평균 RMSE: 5.298 
+alpha 1일 때 5 폴드 세트의 평균 RMSE: 4.323 
+alpha 10일 때 5 폴드 세트의 평균 RMSE: 5.185 
+alpha 100일 때 5 폴드 세트의 평균 RMSE: 6.538 
+
+## 변환 유형:Log, Polynomial Degree:None
+alpha 0.1일 때 5 폴드 세트의 평균 RMSE: 4.770 
+alpha 1일 때 5 폴드 세트의 평균 RMSE: 4.676 
+alpha 10일 때 5 폴드 세트의 평균 RMSE: 4.836 
+alpha 100일 때 5 폴드 세트의 평균 RMSE: 6.241
+```

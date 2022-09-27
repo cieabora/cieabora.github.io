@@ -6,10 +6,19 @@
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <url>
             <loc>http://localhost:4000</loc>
-<<<<<<< HEAD
-	    <lastmod>2022-09-17T23:53:25+09:00</lastmod>
+	    <lastmod>2022-09-27T18:50:17+09:00</lastmod>
             <priority>1.00</priority>
         </url><url>
+                <loc>http://localhost:4000/ml/2022/09/27/week6-Dimension_Reduction.html</loc>
+                <lastmod>2022-09-27T18:18:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/ml/2022/09/27/week5-Regression_Tree.html</loc>
+                <lastmod>2022-09-27T18:04:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
                 <loc>http://localhost:4000/ml/2022/09/17/ml_study_week5_Logistic_Regression.html</loc>
                 <lastmod>2022-09-17T23:49:00+09:00</lastmod>
                 <changefreq>weekly</changefreq>
@@ -35,11 +44,6 @@
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
-=======
-	    <lastmod>2022-09-10T13:31:19+09:00</lastmod>
-            <priority>1.00</priority>
-        </url><url>
->>>>>>> 1c930d7344fd8c17a9dbe2336fd7fd74dc312254
                 <loc>http://localhost:4000/ml/2022/09/10/ml_study_week4_Ensemble.html</loc>
                 <lastmod>2022-09-10T12:23:00+09:00</lastmod>
                 <changefreq>weekly</changefreq>
