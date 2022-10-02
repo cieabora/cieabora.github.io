@@ -1,6 +1,18 @@
 [
   
     {
+      "title"    : "[ML]week7-Clustering",
+      "title-lower"    : "[ml]week7-clustering",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "ML",
+      "tags"     : "",
+      "url"      : "/ml/2022/09/27/week7-Clustering.html",
+      "date"     : "2022-09-27 19:28:00 +0900",
+      "content"     : "  군집화(Clustering) 군집화란? 데이터 포인트들을 별개의 군집으로 그룹화 하는 것. 유사성이 높은 데이터들을 동일한 그룹으로 분류하고 서로 다른 군집들이 상이성을 가지도록 그룹화한다.  군집화 활용 분야세분화(Segmentation)Image 검출, 세분화, 트래킹이상 검출  군집화 알고리즘K-MeansMean ShiftGaussian Mi..."
+    } ,
+  
+    {
       "title"    : "[ML]week6-Dimension Reduction",
       "title-lower"    : "[ml]week6-dimension reduction",
       "sub-titile" : "",
@@ -9,7 +21,7 @@
       "tags"     : "",
       "url"      : "/ml/2022/09/27/week6-Dimension_Reduction.html",
       "date"     : "2022-09-27 18:18:00 +0900",
-      "content"     : ""
+      "content"     : "  차원 축소(Dimension Reduction)  차원 축소의 장점  학습 데이터 크기를 줄여서 학습 시간 절약  불필요한 피처들을 줄여서 모델 성능 향상에 기여(주로 이미지 관련 데이터)  다차원의 데이터를 3차원 이하의 차원 축소를 통해서 시각적으로 보다 쉽게 데이터 패턴 인지  피처 선택과 피처 추출일반적으로 차원 축소는 피처 선택과 피처 추..."
     } ,
   
     {
