@@ -4,7 +4,7 @@ title: "[SWIFT]iOS-Screen Action"
 date: 2022-10-02 13:48
 categories: Swift
 ---
-iOS에서 화면을 전환하는 방법에는 크게 4가지가 있다.<br>
+iOS에서 화면을 전환하는 방법에는 크게 4가지가 있다.<br><br>
 1. View Controller의 View 위에 다른 View를 덮어 씌우기<br>
 2. View Controller에서 다른 View Controller 를 호출하여 전환하기<br>
 3. Navigation Controller를 사용하여 화면 전환하기<br>
