@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "[SWIFT]iOS-Screen Action",
+      "title-lower"    : "[swift]ios-screen action",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/10/02/Screen_action.html",
+      "date"     : "2022-10-02 13:48:00 +0900",
+      "content"     : "iOS에서 화면을 전환하는 방법에는 크게 4가지가 있다.  View Controller의 View 위에 다른 View를 덮어 씌우기  View Controller에서 다른 View Controller 를 호출하여 전환하기  Navigation Controller를 사용하여 화면 전환하기  화면 전환용 객체 세그웨이(Segueway)를 사용하여 화면 전..."
+    } ,
+  
+    {
+      "title"    : "[SWIFT]Operate Property",
+      "title-lower"    : "[swift]operate property",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "Swift",
+      "tags"     : "",
+      "url"      : "/swift/2022/10/01/Operate_property.html",
+      "date"     : "2022-10-01 17:13:00 +0900",
+      "content"     : "계산 프로퍼티는 클래스나 구조체 등에서 스스로 계산을 할 수 있는 유사 함수 또는 매크로의 개념이다. 안 그래도 C++이나 파이썬에서 이런 류의 변수가 있으면 편하다고 생각했는데 스위프트에는 이러한 기능이 있었다.사용법은 간단하다.struct A{    var B: Int{        get{            ~~~~            retu..."
+    } ,
+  
+    {
       "title"    : "[ML]week7-Clustering",
       "title-lower"    : "[ml]week7-clustering",
       "sub-titile" : "",
